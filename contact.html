@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <title>Inselbergs | Contact</title>
+      <meta name="author" content="Amanda Barlow">
+      <meta name="description" content="Get in contact with Inselbergs today.">
+
+      <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+      <link rel="stylesheet" href="#">
+
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <header>
+            <h1>Inselbergs</h1>
+            <nav>
+                  <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#accommodations">Accommodations</a></li>
+                        <li><a href="#">Contact</a></li>
+                  </ul>
+            </nav>
+
+            <a href="index.html" aria-label="go to home page"><img src="imgs/swiss-valley.jpg" alt="beautiful swiss valley mountain pass" width="1440" height="560"></a>
+      </header>
+
+      <main>
+            <section id="contact">
+                  <h2>Contact Us</h2>
+                  <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                  <p id="required">Required fields marked with a *</p>
+                  <img src="imgs/swiss-sunset.jpg" alt="morning sunset cresting over swiss peaks" width="710" height="270">
+            </section>
+            <form action="https://wp.zybooks.com/form-viewer.php">
+                  <div>
+                        <div class="input">
+                              <label for="fullname">Full Name<sup>*</sup></label>
+                              <input type="text" id="fullname" name="fullname" required>
+                        </div>
+                        
+                        <div class="input">
+                              <label for="emailaddress">Email Address<sup>*</sup></label>
+                              <input type="email" id="emailaddress" name="emailaddress" required>
+                        </div>
+
+                        <div class="input">
+                              <label for="phonenumber">Phone Number<sup>*</sup></label>
+                              <input type="tel" id="phonenumber" name="phonenumber" required>
+                        </div>
+                  </div>
+                  <div>
+                        <fieldset id="contactmethod">
+                              <legend>Preferred Contact Method<sup>*</sup></legend>
+                              <input type="radio" id="contactemail" name="contactmethod" value="email" required>
+                              <label for="contactemail">Email</label>
+                              <input type="radio" id="contactphone" name="contactmethod" value="phone" required>
+                              <label for="contactphone">Phone</label>
+                        </fieldset>
+
+                        <div class="input">
+                              <label for="comments">Comments<sup>*</sup></label>
+                              <textarea id="comments" name="comments" rows="3" cols="32" required></textarea>
+                        </div>
+
+                        <div>
+                              <button type="submit">Submit</button>
+                        </div>
+                  </div>
+            </form>
+      </main>
+
+      <footer>
+            <p>Copyright ©2023 -Inselbergs</p>
+            <p>This site is for educational purposes only</p>
+      </footer>
+</body>
+</html>
